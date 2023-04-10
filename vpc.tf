@@ -28,7 +28,6 @@ resource "aws_internet_gateway" "demo" {
     Name = "terraform-eks-demo"
   }
 }
-
 resource "aws_route_table" "demo" {
   vpc_id = aws_vpc.demo.id
 
